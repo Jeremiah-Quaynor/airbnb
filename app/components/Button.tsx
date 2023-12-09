@@ -11,7 +11,7 @@ interface ButtonProps {
   icon?: IconType;
 }
 const Button: React.FC<ButtonProps> = ({
-  label,
+  label = "Button",
   onClick,
   disabled,
   outline,
